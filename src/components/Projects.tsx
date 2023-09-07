@@ -69,9 +69,9 @@ const Projects = () => {
                     <div className="w-full relative overflow-hidden h-[300px]">
                         <Image src={pro6} alt="" className="group-hover:opacity-5 h-full group-hover:transition-all duration-1000"></Image>
                         <p className="pro_details w-full absolute -translate-x-[110%] group-hover:translate-x-0 transition-all duration-1000 top-10 p-5 bg-[#1E293B] rounded-e-3xl">
-                        It is a PHP based Exam system project. An user can add product to cart, order the product after login, see the previous purses history. Admin can add and manage product, add product category, product brand etc
+                        It is a raw PHP based Exam system project. An user can register & login & then can give exam. Admin can add question, edit question & manage.
                         </p>
-                        <div className="technologies p-5 bg-[#1E293B] rounded-e-3xl">HTML, CSS, PHP, Laravel & Mysql</div>
+                        <div className="technologies p-5 bg-[#1E293B] rounded-e-3xl">HTML, CSS, PHP & Mysql</div>
                     </div>
                     <div className="bottom-icons flex justify-between p-5 duration-1000 gap-5">
                         <a href="https://github.com/delowar-prog/Exam-System-Using-PHP-Ajax" target="_blank" className="w-10 h-10 rounded-full flex justify-center items-center border"><BsCodeSlash className="text-2xl hover:text-textGreen" /></a>
@@ -82,7 +82,7 @@ const Projects = () => {
                     <div className="w-full relative overflow-hidden h-[300px]">
                         <Image src={pro7} alt="" className="group-hover:opacity-5 h-full group-hover:transition-all duration-1000"></Image>
                         <p className="pro_details w-full absolute -translate-x-[110%] group-hover:translate-x-0 transition-all duration-1000 top-10 p-5 bg-[#1E293B] rounded-e-3xl">
-                            Implemented user registration and login functionality, allowing registered users to add and manage toy details. Implemented dynamic fetching, query routing, sorting, and indexing of toy information on the backend using Express.js and MongoDB technologies.
+                            Implemented user registration and login functionality. An user can see the new by category, mainly focus on api, how to create an api using express js.
                         </p>
                         <div className="technologies p-5 bg-[#1E293B] rounded-e-3xl">Tailwind CSS, React, React Router, React Hook Form, Firebase, Express.js</div>
                     </div>
