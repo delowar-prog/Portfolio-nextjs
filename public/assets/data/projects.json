@@ -1,0 +1,52 @@
+[
+    {
+        "id":1,
+        "name":"Design Dreamers Schools",
+        "type":"Educational",
+        "description":"Developed a dynamic dashboard allowing users to register as students, select and enroll in classes with Stripe payment integration.Empowered admins to manage users, roles, and class approvals, while instructors could add and update classes.",
+        "technologies":"HTML, Tailwind CSS, React, React Router, React query, stripe, React Hook Form, jsonwebtoken, Firebase, Express.js, MongoDB",
+        "live_link":"https://fashion-design-auth.web.app/",
+        "git_link":"https://github.com/delowar-prog/design-dreamers-school-client",
+        "image":"https://i.ibb.co/tLYb6J8/fashion-design.png"
+    },
+    {
+        "id":2,
+        "name":"Kalabhuna Reastuarent",
+        "type":"Reastuarent",
+        "description":"Implemented user registration and login functionality, allowing registered users to add and manage toy details. Implemented dynamic fetching, query routing, sorting, and indexing of toy information on the backend using Express.js and MongoDB technologies.",
+        "technologies":"Tailwind CSS, React, React Router, React Hook Form, Firebase, Express.js, MongoDB",
+        "live_link":"https://kalabhuna-auth.web.app/",
+        "git_link":"https://github.com/delowar-prog/kalabhuna-restaurant-client",
+        "image":"https://i.ibb.co/5xShDmz/kalabhuna.jpg"
+    },
+    {
+        "id":3,
+        "name":"Online Store BD",
+        "type":"E-commerce",
+        "description":"It is a PHP & laravel based E-commerce project. An user can add product to cart, order the product after login, see the previous purses history. Admin can add and manage product, add product category, product brand etc",
+        "technologies":"HTML, CSS, PHP, Laravel & Mysql",
+        "live_link":"https://myshop.dhmilton.xyz/",
+        "git_link":"https://github.com/delowar-prog/my_shop",
+        "image":"https://i.ibb.co/WpJXrR9/onlinestore.jpg"
+    },
+    {
+        "id":4,
+        "name":"Sports Village",
+        "type":"Toy Related",
+        "description":"Implemented user registration and login functionality, allowing registered users to add and manage toy details. Implemented dynamic fetching, query routing, sorting, and indexing of toy information on the backend using Express.js and MongoDB technologies.",
+        "technologies":"Tailwind CSS, React, React Router, React Hook Form, Firebase, Express.js, MongoDB",
+        "live_link":"https://sports-village-auth.web.app/",
+        "git_link":"https://github.com/delowar-prog/sportsvillage-client",
+        "image":"https://i.ibb.co/t8NBgYX/sports-village.png"
+    },
+    {
+        "id":5,
+        "name":"Work Opportunitye",
+        "type":"Job hunting",
+        "description":"Implemented Good UI design, on homepage applied job info card from local api, each job details can generated job details, applied job store on local storage and can fetch it from api.",
+        "technologies":"HTML, Tailwind CSS, React, React Router, Hero icon, Google font, Chart.js",
+        "live_link":"https://fantastic-mochi-0f6fca.netlify.app/",
+        "git_link":"https://github.com/delowar-prog/work-opportunity",
+        "image":"https://i.ibb.co/cQxBSwj/work-opprotunity.png"
+    }
+]

@@ -22,13 +22,17 @@ const About = () => {
                   <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Bootstrap</li>
                   <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Express js</li>
                   <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>MongoDB</li>
+                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>PHP</li>
+                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Laravel</li>
+                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Mysql</li>
+                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Restfull API</li>
+                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Postman</li>
                   <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Next js</li>
                   <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Redux</li>
                   <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Typescript</li>
                   <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Node js</li>
-                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Mysql</li>
-                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>PHP</li>
-                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Laravel</li>
+                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Firebase</li>
+                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>JWT</li>
                   <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Git & Github</li>
               </ul>
             </div>
