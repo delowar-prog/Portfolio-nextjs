@@ -1,7 +1,7 @@
 'use client'
 import Image from "next/image"
 import SectionTitle from "./SectionTitle"
-import { pro1, pro2, pro3, pro4, pro5, pro6, pro7} from "../../public/assets"
+import { pro1, pro2, pro3, pro4, pro5, pro6, pro7, pro8} from "../../public/assets"
 import { TfiWorld } from "react-icons/tfi";
 import { BsCodeSlash } from "react-icons/bs";
 import './projects.css'
@@ -78,26 +78,28 @@ const Projects = () => {
                     </div>
                 </motion.div>
                 <motion.div initial={{ y: -2, opacity: 0 }} whileInView={{ y: 0, opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.6 }} className="project-card border border-white rounded-lg group">
-                    <h2 className="text-xl p-5 text-center md:p-8">Online Exam System</h2>
+                    <h2 className="text-xl p-5 text-center md:p-8">Care-Link-Hospital</h2>
                     <div className="w-full relative overflow-hidden h-[300px]">
-                        <Image src={pro6} alt="" className="group-hover:opacity-5 h-full group-hover:transition-all duration-1000"></Image>
+                        <Image src={pro8} alt="" className="group-hover:opacity-5 h-full group-hover:transition-all duration-1000"></Image>
                         <p className="pro_details w-full absolute -translate-x-[110%] group-hover:translate-x-0 transition-all duration-1000 top-10 p-5 bg-[#1E293B] rounded-e-3xl">
-                        It is a raw PHP based Exam system project. An user can register & login & then can give exam. Admin can add question, edit question & manage.
+                        Implemented user registration and login functionality using Next-Auth. An user can visit the Doctors profile & can get appointment using next js.
                         </p>
-                        <div className="technologies p-5 bg-[#1E293B] rounded-e-3xl">HTML, CSS, PHP & Mysql</div>
+                        <div className="technologies p-5 bg-[#1E293B] rounded-e-3xl">Next js, Next-Auth, Tailwind & MongoDB</div>
                     </div>
                     <div className="bottom-icons flex justify-between p-5 duration-1000 gap-5">
-                        <a href="https://github.com/delowar-prog/Exam-System-Using-PHP-Ajax" target="_blank" className="w-10 h-10 rounded-full flex justify-center items-center border"><BsCodeSlash className="text-2xl hover:text-textGreen" /></a>
+                        <a href="https://care-link.netlify.app/" target="_blank" className="w-10 h-10 rounded-full flex justify-center items-center border"><TfiWorld className="text-2xl hover:text-textGreen" /></a>
+                        <a href="https://github.com/delowar-prog/Care-link-central-hospital" target="_blank" className="w-10 h-10 rounded-full flex justify-center items-center border"><BsCodeSlash className="text-2xl hover:text-textGreen" /></a>
                     </div>
                 </motion.div>
+                
                 <motion.div initial={{ y: -2, opacity: 0 }} whileInView={{ y: 0, opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.6 }} className="project-card border border-white rounded-lg group">
-                    <h2 className="text-xl p-5 text-center md:p-8">Care-Link Hospital</h2>
+                    <h2 className="text-xl p-5 text-center md:p-8">News Dragon Website</h2>
                     <div className="w-full relative overflow-hidden h-[300px]">
                         <Image src={pro7} alt="" className="group-hover:opacity-5 h-full group-hover:transition-all duration-1000"></Image>
                         <p className="pro_details w-full absolute -translate-x-[110%] group-hover:translate-x-0 transition-all duration-1000 top-10 p-5 bg-[#1E293B] rounded-e-3xl">
-                            Implemented user registration and login functionality using Next-Auth. An user can visit the Doctors profile & can get appointment using next js.
+                            Implemented user registration and login functionality. An user can see the new by category, mainly focus on api, how to create an api using express js.
                         </p>
-                        <div className="technologies p-5 bg-[#1E293B] rounded-e-3xl">Tailwind CSS, Next js, Next-Auth & MongoDB</div>
+                        <div className="technologies p-5 bg-[#1E293B] rounded-e-3xl">Tailwind CSS, React, React Router, React Hook Form, Firebase, Express.js</div>
                     </div>
                     <div className="bottom-icons flex justify-between p-5 duration-1000 gap-5">
                         <a href="https://dragon-news-dfd74.web.app/" target="_blank" className="w-10 h-10 rounded-full flex justify-center items-center border"><TfiWorld className="text-2xl hover:text-textGreen" /></a>
