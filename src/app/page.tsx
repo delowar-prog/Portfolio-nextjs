@@ -3,6 +3,7 @@ import RightSide from "@/components/RightSide";
 import LeftSide from "@/components/LeftSide";
 import Banner from "@/components/Banner";
 import About from "@/components/About";
+import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -19,6 +20,7 @@ export default function Home() {
             <Banner/>
             {/**skills slider */}
             <About/>
+            <Experience/>
             <Projects/>
             <Contact/>
             <Footer/>

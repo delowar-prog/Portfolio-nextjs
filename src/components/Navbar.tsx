@@ -47,24 +47,31 @@ const Navbar = () => {
                 transition={{ duration: 0.1, delay: 0.2 }}
               >About</motion.li>
             </Link>
-            <Link className="text-textDark hover:text-textGreen duration-300 cursor-pointer nav-link" onClick={handleScroll} href={'#project'}>
+            <Link className="text-textDark hover:text-textGreen duration-300 cursor-pointer nav-link" onClick={handleScroll} href={'#experience'}>
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.1, delay: 0.3 }}
+              >Experiences</motion.li>
+            </Link>
+            <Link className="text-textDark hover:text-textGreen duration-300 cursor-pointer nav-link" onClick={handleScroll} href={'#project'}>
+              <motion.li
+                initial={{ y: -10, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.1, delay: 0.4 }}
               >Projects</motion.li>
             </Link>
             <Link className="text-textDark hover:text-textGreen duration-300 cursor-pointer nav-link" onClick={handleScroll} href={'#contact'}>
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.1, delay: 0.4 }}
+                transition={{ duration: 0.1, delay: 0.5 }}
               >Contact</motion.li>
             </Link>
           </ul>
           <a href="/assets/resume.pdf" target="_blank">
             <motion.button initial={{ opacity: 0 }} animate={{ opacity: 1 }}
-              transition={{ duration: 0.1, delay: 0.5 }}
+              transition={{ duration: 0.1, delay: 0.6 }}
               className="border border-textGreen hover:bg-hoverColor px-2 py-1 text-[13px] rounded duration-300">Resume</motion.button>
           </a>
         </div>

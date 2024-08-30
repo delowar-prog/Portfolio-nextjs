@@ -10,29 +10,27 @@ const About = () => {
         <SectionTitle title={'About Me'}/>
         <motion.div initial={{y:-2,opacity:0}} whileInView={{y:0,opacity:1}} viewport={{ once: true }} transition={{duration:0.5, delay:0.8}} className="flex flex-col md:flex-row gap-14">
             <div className="md:w-2/3 space-y-3">
-              <p>Hi, I am Delowar Hossain Milton. Home town Dinajpur, Bangladesh & lives in Dhaka, Bangladesh. I have completed BSc in CSE from World University of Bangladesh in 2018. Then I have worked in an Insurance company as Junior Officer (IT). In there I worked on Photoshop, Illustrator, MS Office & Hardware maintenance related work.</p>
-              <p>But from my university live I am very interested to programming. Beside my job I have completed few corses on PHP & Laravel Development.</p>
-              <p>In October 2022, I have resigned the job to change my job field & admitted to complete web development course with Jhankar Mahbub. In there I have completed more then 10 projects using my skills. I always try to explore new technologies & implement to my projects. In future, I want to be a fullstack Developer.</p>
-              <p>At present I am trying to get an opportunity of work with a team in an organization.</p>
+              <p>Hi, I am Delowar Hossain Milton. Home town Dinajpur, Bangladesh & lives in Dhaka, Bangladesh. I have completed <span className="text-textGreen">BSc in CSE</span> from World University of Bangladesh in 2018. Then I have worked in an Insurance company as Officer (IT). In there I worked on Photoshop, Illustrator, MS Office & Hardware maintenance related work.</p>
+              <p>But from my university live I am very interested to programming. Beside my job I have completed few corses on PHP, Laravel & React Js Development.</p>
+              <p className="text-textGreen">At present I am working in Worldtechsoft as Junior Fullstack Developer From August 2023 (1 years).</p>
               <p>Here are a few technologies I have been working recently-</p>
               <ul className="w-[250px] md:w-[350px] grid grid-cols-2">
-                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>React js</li>
-                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Javascript (ES6)</li>
+                <p>Exparties:</p>
+                  <li className="flex gap-2 items-center"></li>
+                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Laravel</li>
+                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>PHP</li>
+                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Mysql</li>
                   <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Tailwind</li>
                   <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Bootstrap</li>
-                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Express js</li>
-                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>MongoDB</li>
-                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>PHP</li>
-                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Laravel</li>
-                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Mysql</li>
+                  <li className="flex gap-2 items-center"></li>
+                <p className="mt-5">Little Knowledge on:</p>
+                  <li className="flex gap-2 items-center"></li>
+                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>React js</li>
+                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Javascript (ES6)</li>
                   <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Restfull API</li>
                   <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Postman</li>
-                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Next js</li>
-                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Redux</li>
-                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Typescript</li>
-                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Node js</li>
-                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Firebase</li>
-                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>JWT</li>
+                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Laravel Livewire</li>
+                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>MongoDB</li>
                   <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Git & Github</li>
               </ul>
             </div>
