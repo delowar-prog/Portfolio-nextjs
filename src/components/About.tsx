@@ -12,26 +12,27 @@ const About = () => {
             <div className="md:w-2/3 space-y-3">
               <p>Hi, I am Delowar Hossain Milton. Home town Dinajpur, Bangladesh & lives in Dhaka, Bangladesh. I have completed <span className="text-textGreen">BSc in CSE</span> from World University of Bangladesh in 2018. Then I have worked in an Insurance company as Officer (IT). In there I worked on Photoshop, Illustrator, MS Office & Hardware maintenance related work.</p>
               <p>But from my university live I am very interested to programming. Beside my job I have completed few corses on PHP, Laravel & React Js Development.</p>
-              <p className="text-textGreen">At present I am working in Worldtechsoft as Junior Fullstack Developer From August 2023 (1 years).</p>
-              <p>Here are a few technologies I have been working recently-</p>
               <ul className="w-[250px] md:w-[350px] grid grid-cols-2">
                 <p>Exparties:</p>
                   <li className="flex gap-2 items-center"></li>
                   <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Laravel</li>
+                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Livewire</li>
                   <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>PHP</li>
                   <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Mysql</li>
+                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>React & Next js</li>
+                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Restfull API</li>
                   <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Tailwind</li>
                   <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Bootstrap</li>
-                  <li className="flex gap-2 items-center"></li>
-                <p className="mt-5">Little Knowledge on:</p>
-                  <li className="flex gap-2 items-center"></li>
-                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>React js</li>
-                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Javascript (ES6)</li>
-                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Restfull API</li>
-                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Postman</li>
-                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Laravel Livewire</li>
-                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>MongoDB</li>
                   <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Git & Github</li>
+                  <li className="flex gap-2 items-center"></li>
+                <p className="mt-5">Additional Skills:</p>
+                  <li className="flex gap-2 items-center"></li>
+                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Javascript (ES6)</li>
+                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Postman</li>
+                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>MongoDB</li>
+                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Photoshop</li>
+                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Illustrator</li>
+                  <li className="flex gap-2 items-center"><AiFillThunderbolt className="text-textGreen"></AiFillThunderbolt>Word, Powerpoint & Excel</li>
               </ul>
             </div>
             <div className="w-full h-full md:h-96 md:w-1/3 flex flex-col md:flex-row justify-between relative group cursor-pointer">
